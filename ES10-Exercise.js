@@ -3,6 +3,7 @@
 // #1 Turn this array into a new array: [1,2,3,[4],[5]]. Bonus if you can do it on one line
 const array = [[1],[2],[3],[[[4]]],[[[5]]]]
 
+array.flat(4)
 
 // #2 Turn this array into a new array: [ 'Hello young grasshopper!', 'you are', 'learning fast!' ]
 const greeting = [["Hello", "young", "grasshopper!"], ["you", "are"], ["learning", "fast!"]];
